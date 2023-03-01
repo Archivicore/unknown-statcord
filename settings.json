@@ -1,6 +1,7 @@
 { 
-     "QUOTE1": "Somethin' funny's goin' on up",
-     "QUOTE2": "You think I didn't know those things?",
-     "QUOTE3": "Now y'all done it",
-     "QUOTE4": "I don't wanna be overdramatic"
+     "QUOTE": [ "hold me",
+                  "hopes",
+                  "starting",
+                  "go on"
+                ]
 }
