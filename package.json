@@ -1,4 +1,10 @@
 {
+  "name": "jovrpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Isnaeni12003/koyebnisa.git",
+  "author": "<archivicore@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "discord.js-selfbot-v13": "^2.10.7",
     "dotenv": "^16.0.3",
