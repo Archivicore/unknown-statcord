@@ -43,7 +43,7 @@ client.on("ready", () => {
         setTimeout(function(){
             client.user.setStatus('idle')
         }, 4000)
-    }, 10000)
+    }, TIMERS1)
    let activity = 1;
    setInterval(() => {
        r[2] = new discord.CustomStatus()
@@ -55,7 +55,7 @@ client.on("ready", () => {
        if (activity > 4) activity = 0;
        client.user.setActivity(r[activity])
        activity++;
-   }, 10000)
+   }, TIMERS1)
    console.log(`${client.user.tag} is running on !`);
 });
 client.login(TOKEN)
